@@ -19,6 +19,8 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.18.1-R0.1-SNAPSHOT")
 
     implementation(kotlin("stdlib"))
+    implementation("io.github.monun:kommand-api:2.8.0")
+    implementation("net.coobird:thumbnailator:0.4.15")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.2")
